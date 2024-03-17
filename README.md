@@ -34,10 +34,10 @@ pnpm init
 
 모든 모듈(자바스크립트, CSS, 이미지 파일 등)을 하나 또는 여러 개의 파일로 번들링해 주어, 브라우저가 이해할 수 있는 형태로 만들어 줍니다.
 
-- 웹팩
+- webpack
   - 모듈 번들러
   - 프로젝트의 모든 모듈을 하나의 팔일 또는 여러 파일로 번들링해주는 역할을 하게 된다.
-- 웹팩 CLI
+- webpack-cli
   - 웹팩을 커맨드 라인에서 실행할 수 있게 해주는 도구
 - webpack-dev-server
   - 개발을 위한 간단한 webpack이 제공하는 웹 서버입니다.
@@ -148,8 +148,8 @@ module.exports = {
 
 ## 6. React 시작을 위한 마지막 구성들..
 
-1. 프로젝트 내 src라는 폴더를 생성 후 main.js 파일을 만듭니다.
-2. 프로젝트 루트에 index.html 파일을 생성합니다.
+1. 프로젝트 내 src라는 폴더를 생성 후 `main.js` 파일을 만듭니다.
+2. 프로젝트 루트에 `index.html` 파일을 생성합니다.
 
 ### **index.html 구성**
 
@@ -240,7 +240,7 @@ root.render(<App />);
 
 **App.js**
 
-```
+```jsx
 import React from "react";
 
 function App() {
@@ -252,5 +252,4 @@ function App() {
 }
 
 export default App;
-
 ```
