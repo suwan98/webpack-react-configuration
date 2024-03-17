@@ -1,4 +1,16 @@
-# Create-React-App 없이 React 환경 구성하기
+# Create React App 없이 React 환경 구성하기
+
+<br />
+<br />
+
+## 📑 목차
+
+1. [package.json 파일 생성](#1-packagejson-파일-생성)
+2. [webpack 관련 의존성 모듈 설치하기](#2-webpack-관련-의존성-모듈-설치하기)
+3. [React와 ReactDOM 설치하기](#3-React와-ReactDOM-설치하기)
+4. [Babel 설치 및 설정하기](#4-Babel-설치-및-설정하기)
+5. [Webpack 설정 파일 생성하기](#5-Webpack-설정-파일-생성하기)
+6. [React 시작을 위한 마지막 구성들..](#6-React-시작을-위한-마지막-구성들)
 
 <br />
 <br />
@@ -10,6 +22,9 @@
 ```jsx
 pnpm init
 ```
+
+<br />
+<br />
 
 ## 2. webpack 관련 의존성 모듈 설치하기
 
@@ -31,6 +46,9 @@ pnpm init
 $ pnpm add webpack webpack-cli webpack-dev-server -D
 ```
 
+<br />
+<br />
+
 ## 3. React와 ReactDOM 설치하기
 
 React 개발 시 핵심 라이브러리인 React와 ReactDOM을 설치합니다.
@@ -41,6 +59,9 @@ React 개발 시 핵심 라이브러리인 React와 ReactDOM을 설치합니다.
 ```jsx
 $ pnpm add react react-dom
 ```
+
+<br />
+<br />
 
 ## 4. Babel 설치 및 설정하기
 
@@ -55,6 +76,9 @@ Babel은 최신 자바스크립트를 이전 버전의 자바스크립트와의 
 ```jsx
 $ pnpm add babel-loader @babel/core @babel/preset-env @babel/preset-react -D
 ```
+
+<br />
+<br />
 
 ## 5. Webpack 설정 파일 생성하기
 
@@ -118,6 +142,9 @@ module.exports = {
   },
 };
 ```
+
+<br />
+<br />
 
 ## 6. React 시작을 위한 마지막 구성들..
 
